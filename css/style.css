@@ -582,7 +582,9 @@ form {
   border-radius: 50%;
   background: #ff1818;
   padding: 8px;
-  position: absolute; }
+  position: absolute;
+  right: 121px;
+}
   .price .round {
     border: 1px solid #fff;
     border-radius: 50%;
@@ -837,9 +839,13 @@ form {
  }
   .comments .comment-item {
     background: transparent;
-    margin-bottom:0px;
+    margin-bottom: 0px;
     margin-top: 30px;
-    min-height: 180px; }
+    min-height: 180px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    background-color: #fff;
+  }
     .comments .comment-item .head-comment {
       display: flex;
       position: relative;}
@@ -854,7 +860,11 @@ form {
         color: #a2a2a2;
         font-weight: 700; }
       .comments .comment-item .head-comment .image-wrapper {
-        margin-right: 25px; }
+        margin-right: 25px;
+        overflow: hidden;
+        border-radius: 10px 0 10px 0;
+        background: #000;
+      }
       .comments .comment-item .head-comment .user-data {
         padding-top: 6px; }
     .comments .comment-item .body-comment {
@@ -1210,6 +1220,160 @@ form {
   padding: 15px;
 }
   /*------------------ END screen-four------------------------*/
+/*----------------------bonus-------------------*/
+
+.bonus-stripe {
+  background: yellow;
+  position: relative;
+  padding: 40px 0;
+}
+
+.bonus-stripe::before {
+  position: absolute;
+  top: 8px;
+  content: '';
+  display: block;
+  height: 4px;
+  background: #fff;
+  width: 100%;
+}
+.bonus-stripe::after {
+  position: absolute;
+  bottom: 8px;
+  content: '';
+  display: block;
+  height: 4px;
+  background: #fff;
+  width: 100%;
+}
+.bonus-stripe .container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.bonus-stripe .container img {
+  display: block;
+}
+  /*---------------------- END bonus--------------*/
+
+/*------------------ screen grass ---------------------*/
+
+.screen-grass{
+  background: white url(../images/bg-screen-grass.jpg) center no-repeat;
+  background-size: cover;
+}
+.grass_box{
+  margin: 16px auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.grass{
+  border: 1px solid black;
+  margin: 40px auto 0;
+  position: relative;
+  padding: 48px 8px 8px;
+  width: 250px;
+}
+.g_img{
+  border: 1px solid black;
+  border-radius: 50%;
+  position: absolute;
+  top: -40px;
+  width: 80%;
+  height: 80%;
+}
+.g_img img{
+  width: 100%;
+}
+.g_text{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+/*------------------ screen grass END ---------------------*/
+/*------------------ lovers ---------------------*/
+.lovers {
+  background: url("../images/lovers.jpg") center no-repeat;
+  background-size: cover;
+  }
+.lovers .container {
+  padding: 40px;
+}
+.arrow-box {
+  padding: 24px 8px 133px;
+  border: 5px solid #fff;
+  width: 190px;
+  position: relative;
+  background: rgba(0, 0, 0, 0.1);
+  margin: 0 0 0 180px;
+}
+.arrow-box::after {
+  position: absolute;
+  content: url(../images/arrow.svg);
+  margin-left: -80px;
+  bottom: 10px;
+  left: 10px;
+  -webkit-animation: downarrow 0.6s infinite alternate ease-in-out;
+}
+.arrow-box h3 {
+  text-shadow: 0 1px 1px #080808;
+  text-align: center;
+  color: #fff;
+}
+/*------------------ lovers END ---------------------*/
+
+/*------------one-two-three---------------------*/
+
+.one-two-three{
+}
+.one-two-three .container{
+  display: flex;
+  padding: 24px 0;
+}
+.ott_col{
+  display: flex;
+  flex-direction: column;
+}
+.ott_main{
+  box-shadow: black;
+  margin: 0 0 16px;
+  padding: 4px;
+}
+.ott_main .x1,
+.ott_main .x2,
+.ott_main .x3{
+  width: 100%;
+  height: 150px;
+  background: url("../images/x1.png") center no-repeat;
+  background-size: cover;
+}
+.ott_main .x2{
+  background: url("../images/x2.png") center no-repeat;
+  background-size: cover;
+}
+.ott_main .x3{
+  background: url("../images/x3.png") center no-repeat;
+  background-size: cover;
+}
+.ott_button{
+  display: block;
+}
+.sec_badges{
+  display: block;
+  background: url("../images/sec_badge.png") center no-repeat;
+  background-size: cover;
+  margin: 16px 0 0;
+}
+
+/*------------one-two-three END---------------------*/
+
+
+
 .steps-block ul{
   padding-left: 0;
   list-style: none;
@@ -1292,6 +1456,21 @@ form {
     background-color: #feff9b;
   font-weight: 700;
   }
+
+
+.goods-bottom .form .form_wrapper form .checkbox li {
+    border: 1px solid #2d2d2d;
+    margin-bottom: 20px;
+    width: 100%; }
+.goods-bottom .form .form_wrapper form .checkbox li.cubok {
+    background: #fff; }
+.goods-bottom .form .form_wrapper form .checkbox li.cubok .top {
+    display: flex; }
+.goods-bottom .form .form_wrapper form .checkbox li.box {
+    background: #fff; }
+.goods-bottom .form .form_wrapper form .checkbox li.gift {
+    background: #fff; }
+
 .carousel-indicators li{
   background: #ccc!important;
   width: 15px;
@@ -1493,6 +1672,19 @@ form {
     .click {
       right: -16%;
     }
+  .lovers {
+    background-position: 76% 0%;
+    padding: 400px 0 0;
+    background-size: inherit;
+  }
+  .lovers .container {
+    background: url(../images/lovers.jpg) 32% 0 no-repeat;
+    padding: 32px;
+  }
+  .arrow-box {
+    width: 100%;
+    margin: 0;
+  }
   }
 
 
