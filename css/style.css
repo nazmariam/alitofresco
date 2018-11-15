@@ -755,7 +755,10 @@ form {
   }
 /*-------------------END about-gooods----------------*/
 /*-------------------screen-two----------------*/
-
+.screen-two {
+  background: url("../images/bg-two.jpg") center no-repeat;
+  background-size: cover;
+}
 
 /*-------------------END screen-two----------------*/
 
