@@ -683,7 +683,7 @@ form {
   line-height: 24px;
   margin-bottom: 20px;
   font-weight: 500; }
-
+/*--------------about-goods----------------------*/
 .about-goods {
   background: url("../images/bg-banner-big.jpg") no-repeat center center;
   background-size: cover;
@@ -753,7 +753,11 @@ form {
   .good-timer {
     padding: 0 27px 0 27px;
   }
+/*-------------------END about-gooods----------------*/
+/*-------------------screen-two----------------*/
 
+
+/*-------------------END screen-two----------------*/
 
 .video {
   padding: 35px 0 40px;
