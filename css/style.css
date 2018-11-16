@@ -1383,19 +1383,34 @@ form {
   background: white url(../images/bg-screen-grass.jpg) center no-repeat;
   background-size: cover;
 }
+.screen-grass h2 {
+  color: #507694;
+  font-weight: 900;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  margin: 58px 0 40px;
+  text-align: center;
+}
+.green {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  color: #14ce4d;
+}
 .grass_box{
-  margin: 16px auto;
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 .grass{
   border: 1px solid black;
-  margin: 40px auto 0;
+  margin: 40px auto 20px;
   position: relative;
   padding: 48px 8px 8px;
   width: 350px;
   background: #fff;
+  box-shadow: 0 7px 20px 0 rgba(0,0,0,0.2);
 }
 .g_img{
   border: 1px solid black;
@@ -1422,6 +1437,10 @@ form {
 }
 .g_text p {
   font-size: 18px;
+}
+.screen-grass .button-wrapper {
+  text-align: center;
+  margin: 40px;
 }
 
 /*------------------ screen grass END ---------------------*/
