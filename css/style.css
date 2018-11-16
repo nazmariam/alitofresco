@@ -67,7 +67,7 @@ html {
 form {
   background: transparent; }
   form .head_bg {
-    background: #242424;;
+    background: #023b54;
     padding-top: 5px; }
     form .head_bg.sec_step {
       padding-top: 30px; }
@@ -80,7 +80,7 @@ form {
       line-height: 26px;
       color: #fff;
       text-align: center;
-      font-family: 'Open Sans', sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-weight: 500; }
       form .head_form p b {
         font-size: 21px;
@@ -764,6 +764,7 @@ form {
 .screen-two .container {
   background: url("../images/girl.png") right bottom no-repeat;
   padding: 20px 30% 20px 20px;
+  position: relative;
 }
 .screen-two h3 {
   color: #507694;
@@ -784,9 +785,24 @@ form {
   flex-direction: row;
   align-items: center;
  }
-.addio>img {
+
+.addio-img img {
   display: block;
   height: max-content;
+}
+.screen-two h3::before {
+  position: absolute;
+  content: url(../images/blue-up.svg);
+  left: 10%;
+  top: 32px;
+  -webkit-animation: downarrow 0.6s infinite alternate ease-in-out;
+}
+.screen-two h3::after {
+  position: absolute;
+  content: url(../images/blue-down.svg);
+  top: 28px;
+  -webkit-animation: downarrow 0.6s infinite alternate ease-in-out;
+  right: 48%;
 }
 .circle-check {
   cursor: pointer;
@@ -1147,6 +1163,7 @@ form {
   font-size: 18px;
   margin-top: 15px;
   font-weight: 900;
+  text-align: center;
 }
 
 .scissors-row{
@@ -1197,33 +1214,124 @@ form {
   padding-right: 0;
 }
 /*------------screen-three-----------------*/
-.screen-three{
+.screen-three {
 
+}
+.screen-three h3{
+  color: #507694;
+  font-weight: 900;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  margin: 48px 0 40px;
+}
+.tooth-row b {
+  color: red;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.screen-three p {
+  font-size: 20px;
+}
+.screen-three h3::before {
+  position: absolute;
+  bottom: -20px;
+  width: 30%;
+  content: '';
+  display: block;
+  height: 4px;
+  background: #000;
 }
 
 .screen-three h2{
     font-size: 30px;
-    line-height: 30px;
+    line-height: 32px;
     color: #000;
     width: 100%;
     display: block;
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 40px;
-    font-weight: 700;
+    font-weight: 900;
 }
 
-.screen-three .row {
+.screen-three .tooth-row {
+  display: flex;
   padding-top: 40px;
   padding-bottom: 40px;
 }
-/*------------------ END screen-three-----------------------*/
+.green {
+  text-align: center;
+}
+.green h2 b {
+  color: #00b68f;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+.screen-three a {
+  margin: 16px auto 50px;
+}
+.screen-three .button-wrapper::before {
+  position: absolute;
+  content: url(../images/right.svg);
+  left: 26%;
+  -webkit-animation: downarrow 0.6s infinite alternate ease-in-out;
+  top: 36%;
+}
+.screen-three .button-wrapper::after {
+  position: absolute;
+  content: url(../images/left.svg);
+  top: 36%;
+  -webkit-animation: downarrow 0.6s infinite alternate ease-in-out;
+  right: 26%;
+}
+  /*------------------ END screen-three-----------------------*/
 /*------------------screen-four------------------------*/
 
 .screen-four{
   background: url(../images/bg-screen-four.jpg) center no-repeat;
   background-size: cover;
 }
-
+.screen-four h3 {
+  color: #507694;
+  font-weight: 900;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+    margin: 104px 0 40px;
+}
+.screen-four p {
+    margin: 8px 0;
+    font-size: 20px;
+}
+.screen-four h3 b {
+  color: red;
+  font-weight: 900;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+}
+.underline {
+  text-decoration: underline;
+}
+.screen-four h3 .underline {
+  font-weight: 900;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+}
+.screen-four .col-md-8 p {
+  font-size: 22px;
+}
+.screen-four .col-md-4 img {
+    margin: 0 0 24px 0;
+}
+.screen-four .photos {
+    margin: 0 20px 20px 0;
+}
+.screen-four a {
+    margin: 52px 0;
+}
+.photos img {
+    margin: 0 0 24px 0;
+}
 .photos-container{
   flex-direction: row;
   flex-wrap: nowrap;
@@ -1235,7 +1343,7 @@ form {
 /*----------------------bonus-------------------*/
 
 .bonus-stripe {
-  background: yellow;
+  background: #ffea7e;
   position: relative;
   padding: 40px 0;
 }
@@ -1279,7 +1387,6 @@ form {
   margin: 16px auto;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
   justify-content: space-between;
 }
 .grass{
@@ -1287,15 +1394,18 @@ form {
   margin: 40px auto 0;
   position: relative;
   padding: 48px 8px 8px;
-  width: 250px;
+  width: 350px;
+  background: #fff;
 }
 .g_img{
   border: 1px solid black;
   border-radius: 50%;
   position: absolute;
   top: -40px;
-  width: 80%;
-  height: 80%;
+  width: 80px;
+  left: 50%;
+  margin-left: -40px;
+  overflow: hidden;
 }
 .g_img img{
   width: 100%;
@@ -1305,6 +1415,13 @@ form {
   align-items: center;
   text-align: center;
   flex-direction: column;
+}
+.g_text h3 {
+  font-size: 20px;
+  font-weight: 900;
+}
+.g_text p {
+  font-size: 18px;
 }
 
 /*------------------ screen grass END ---------------------*/
@@ -1530,6 +1647,9 @@ form {
     bottom: 18%
   }
 }
+@media (max-width: 768px)and(min-width: 320px) {
+
+}
 @media(max-width: 767px){
 
   form .security_box{
@@ -1570,16 +1690,102 @@ form {
   .mg-image{
     left: -3%;
   }
-  .comments .rate{
-    position: initial;
-    margin: 6px 0;
+  .addio {
+    flex-direction: column;
+  }
+  .checks-box {
+    flex-direction: column;
+  }
+  .screen-two .container {
+    padding: 8px;
+  }
+  .screen-two h3 {
+    margin: 20px auto 48px;
+  }
+  .addio-container {
+    justify-content: center;
+  }
+   .checks {
+    margin: 20px 20px;
+  }
+  .screen-two .container {
+    background: url(../images/girl.png) center bottom no-repeat;
+    /* padding: 20px 30% 20px 20px; */
+    position: relative;
+    background-size: contain;
+    padding-bottom: 24px;
+
+  }
+  .screen-two h3::before {
+    position: absolute;
+    content: url(../images/blue-down.svg);
+    left: 28%;
+    top: 70px;
+    transform: scale(-1, 1);
+    -webkit-animation: none;
+  }
+  .screen-two h3::after {
+    position: absolute;
+    content: url(../images/blue-down.svg);
+    top: 70px;
+    right: 28%;
+    -webkit-animation: none;
+  }
+  .screen-three{
+       padding: 20px 20px;
+     }
+
+  .screen-three h3 {
+    text-align: center;
+    margin: 8px;
+    font-size: 27px;
+    line-height: 26px;
+  }
+  .screen-three p {
+    text-align: center;
+  }
+  .screen-three h3::before {
+    display: none;
+  }
+  .screen-three .tooth-row {
+    flex-direction: column-reverse;
+    padding: 0;
+  }
+  .screen-three .button-wrapper::before,
+  .screen-three .button-wrapper::after {
+    display: none;
+  }
+  .screen-four {
+      text-align: center;
+  }
+  .screen-four h3 {
+      margin: 8px;
+  }
+  .screen-four .col-md-4 img {
+      margin: 20px auto;
+  }
+  .screen-four .photos-container {
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-items: center;
+  }
+  .photos img {
+      margin: 0;
+  }
+  .photos-text img {
+      margin: auto;
   }
 
-  .screen-three{
-    background: url(../images/bg-banner2-small.jpg)no-repeat center top;
-    background-size: cover;
-    padding: 20px 20px;
+    .one-two-three .container {
+      flex-direction: column;
   }
+
+
+
+  .comments .rate{
+       position: initial;
+       margin: 6px 0;
+     }
   .comments{
     padding: 20px 0 60px
   }
@@ -1691,6 +1897,9 @@ form {
   }
 
 }
+
+
+
   @media(max-width: 500px) {
   .click img {
     width: 50%;
@@ -1711,6 +1920,11 @@ form {
     width: 100%;
     margin: 0;
   }
+  .bonus-stripe .container img {
+      width: 126px;
+      margin: 8px;
+  }
+
   }
 
 
@@ -1743,6 +1957,9 @@ form {
   }
   .play_cover {
     background: url(../images/youtube-small.jpg) no-repeat center center;
+  }
+  .screen-two .container {
+    padding-bottom: 342px;
   }
   .screen-three .row {
     padding-top: 12px;
