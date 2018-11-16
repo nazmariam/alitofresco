@@ -763,10 +763,10 @@ form {
 }
 .screen-two .container {
   background: url("../images/girl.png") right bottom no-repeat;
-  padding-right: 30%;
+  padding: 20px 30% 20px 20px;
 }
 .screen-two h3 {
-  color: #000;
+  color: #507694;
   font-weight: 900;
   font-size: 30px;
   font-family: Montserrat;
@@ -782,18 +782,28 @@ form {
 .addio {
    display: flex;
   flex-direction: row;
+  align-items: center;
  }
 .addio>img {
   display: block;
-} 
+  height: max-content;
+}
+.circle-check {
+  cursor: pointer;
+}
+.checks {
+  margin: 20px 80px;
+}
 .checks-box {
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin: 28px;
 }
 .check-col {
   display: flex;
   flex-direction: column;
+  margin: 0 20px;
 }
 
 /*-------------------END screen-two----------------*/
@@ -1066,7 +1076,9 @@ form {
     /*background-size: cover; padding: 10px 0;*/
   }
     .about-goods h1 {
-      font-size: 28px; }
+      font-size: 28px;
+      margin-bottom: 22px;
+    }
     .about-goods h2 {
       text-align: center;
     }
@@ -1131,7 +1143,7 @@ form {
   -webkit-transition: all 0.3s ease-in-out 0s;
 }
 .circle-check h4{
-  color: #fff;
+  color: #000;
   font-size: 18px;
   margin-top: 15px;
   font-weight: 900;
@@ -1540,7 +1552,21 @@ form {
     background: #232323;
     padding: 15px;
   }
+  .good-img {
+    width: 55%;
+    margin: 0 auto;
+  }
+  .about-goods .center-pos {
+    top: 8px;
+    left: 30%;
+  }
+  .good-description {
+    margin: 8px 0;
+  }
 
+  .good-timer {
+    padding: 0 8px 0 8px;
+  }
   .mg-image{
     left: -3%;
   }
@@ -1690,12 +1716,30 @@ form {
 
 @media(max-width: 320px) {
   .about-goods {
-    background: url(../images/bg-banner.jpg) no-repeat;
-    background-size: contain;
+    background: url(../images/bg-banner.jpg) top center no-repeat;
+    background-size: cover;
     padding: 10px 0;
   }
-  .top-good-container {
-    margin-top: 224px;
+  .top-description {
+    margin-bottom: 0;
+  }
+  .image-wrapper-top {
+    width: 40%;
+    margin: 0px 8px 0 162px;
+  }
+  .image-wrapper-top .price {
+    right: 23%;
+    left: auto;
+    top: 2px;
+    width: 20%;
+    height: 6%;
+  }
+  .image-wrapper-top .top-good-container {
+    margin-top: 38px;
+  }
+  .image-wrapper-top .top-good-container .image-wrapper {
+    width: 40%;
+    margin: 0 0 20px 160px;
   }
   .play_cover {
     background: url(../images/youtube-small.jpg) no-repeat center center;
