@@ -68,13 +68,15 @@ form {
   background: transparent; }
   form .head_bg {
     background: #023b54;
-    padding-top: 5px; }
+    padding: 0 0 5px; }
     form .head_bg.sec_step {
       padding-top: 30px; }
   form .foot_bg {
-    background: #e2e2e2; }
+    background: #e2e2e2;
+  }
   form .head_form {
-    padding: 20px 15px; }
+    padding: 11px 0 13px;
+  }
     form .head_form p {
       font-size: 20px;
       line-height: 26px;
@@ -334,8 +336,7 @@ form {
   form .sec2formbg {
     padding: 15px 0; }
   form .security_box {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding: 20px 0;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -355,6 +356,7 @@ form {
   .securesubmit{
     width: 33.333333%;
     max-width: 350px;
+    font-size: 23px;
   }
   form .nice-select {
     width: 100%;
@@ -401,7 +403,7 @@ form {
   padding: 0 9px 6px 37px;
   border-radius: 0;
   background-color: #ffffff;
-  margin-bottom: 15px;
+  margin-bottom: 23px;
   color: #797979;
   font-size: 14px; }
 
@@ -509,7 +511,7 @@ form {
   margin-top: -15px; }
 
 .flip-clock-wrapper {
-  padding: 15px 0;
+  padding: 15px 0 0;
   margin-left: 0;
   margin-right: 0;
   display: inline-block;
@@ -593,21 +595,26 @@ form {
     flex-direction: column;
     justify-content: center; }
     .price .round b {
-      font: bold 24px/22px "Open Sans", sans-serif;
+      font-family: "Open Sans", sans-serif;
       color: #ffea3a;
+      font-size: 52px;
       text-align: center;
       padding-bottom: 15px;
-      font-weight: 900; }
-      .price .round b sup {
-        font-size: 18px; }
+      font-weight: 900;
+    }
+    .price .round b sup {
+      position: relative;
+      top: -22px;
+    }
     .price .round span {
-      font: 500 16px/16px "Open Sans", sans-serif;
-      font-weight: 800;
-      color: #fff;
-      text-align: right;
+      font-family: "Open Sans", sans-serif;
+      font-size: 20px;
+      color: #000;
       text-decoration: line-through;
-      padding-right: 15px;
-      padding-top: 10px; }
+      position: absolute;
+      right: 32px;
+      top: 5px;
+    }
       .price .round span sup {
         font-size: 12px; }
 
@@ -685,28 +692,50 @@ form {
   line-height: 24px;
   margin-bottom: 20px;
   font-weight: 500; }
+
 /*--------------about-goods----------------------*/
 .about-goods {
   background: url("../images/bg-banner-big.jpg") no-repeat center center;
   background-size: cover;
-  padding: 40px 0;}
+  padding: 5px 0 20px;
+}
+.red_text{
+ color: #fe3b40;
+}
+.green_text{
+  color: #42d03e;
+  font-weight: bold;
+}
+.underline{
+  text-decoration: underline;
+}
   .about-goods h1 {
-    font-size: 36px;
-    line-height: 34px;
+    font-size: 57px;
+    line-height: 60px;
     color: #000;
     width: 100%;
     display: block;
     font-family: 'Montserrat', cursive;
-    margin-bottom: 60px;
+    margin-bottom: 33px;
     font-weight: 800;
+    position: relative;
+  }
+  .about-goods h1::after {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 360px;
+    position: relative;
+    margin: auto;
+    background: black;
+    bottom: -17px;
   }
   .about-goods .top-description{
-    margin: 0px auto 40px;
+    margin: 0 auto 40px;
     color: #000;
     text-shadow: none;
-    font-weight: 600;
     border: none;
-    padding: 0;
+    padding: 0 90px;
   }
 
   .about-goods .top-good-container {
@@ -714,9 +743,8 @@ form {
   }
 
   .about-goods h2 {
-    font-size: 20px;
+    font-size: 26px;
     line-height: 28px;
-    font-weight: 700;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
     border: 1px solid #fff;
@@ -724,8 +752,12 @@ form {
   }
   .good-description {
     background: #ffffff8f;
-    margin: 40px 0;
+    margin: 10px 0 28px;
     padding: 6px;
+  }
+  .good-description h2{
+    font-size: 20px;
+    font-weight: bold;
   }
   .about-goods h3 {
     font-size: 22px;
@@ -741,7 +773,7 @@ form {
         left: -15px; }
   .about-goods .image-wrapper {
     position: relative;
-    margin-left: 20px;
+    margin: 20px 20px 11px;
   }
   .about-goods .timer-wrapper {
     margin-bottom: 20px; }
@@ -753,8 +785,15 @@ form {
     background-size: cover;
   }
   .good-timer {
-    padding: 0 27px 0 27px;
+    padding: 30px 10px 0;
+    text-align: center;
   }
+  .good-img{
+    /*костыль, но полпервого...*/
+    position: relative;
+    right: -35px;
+  }
+
 /*-------------------END about-gooods----------------*/
 /*-------------------screen-two----------------*/
 .screen-two {
@@ -763,15 +802,16 @@ form {
 }
 .screen-two .container {
   background: url("../images/girl.png") right bottom no-repeat;
-  padding: 20px 30% 20px 20px;
+  padding: 42px 30% 20px 100px;
   position: relative;
 }
 .screen-two h3 {
   color: #507694;
   font-weight: 900;
-  font-size: 30px;
-  font-family: Montserrat;
+  font-size: 36px;
+  font-family: Montserrat, sans-serif;
   text-align: center;
+  position: relative;
 }
 
 /*.addio-container {*/
@@ -793,22 +833,22 @@ form {
 .screen-two h3::before {
   position: absolute;
   content: url(../images/blue-up.svg);
-  left: 10%;
-  top: 32px;
+  left: -20px;
+  top: 0;
   -webkit-animation: downarrow 0.6s infinite alternate ease-in-out;
 }
 .screen-two h3::after {
   position: absolute;
   content: url(../images/blue-down.svg);
-  top: 28px;
+  top: 0;
   -webkit-animation: downarrow 0.6s infinite alternate ease-in-out;
-  right: 48%;
+  right: -20px;
 }
 .circle-check {
   cursor: pointer;
 }
 .checks {
-  margin: 20px 80px;
+  margin: 5px 8px;
 }
 .checks-box {
   display: flex;
@@ -1223,7 +1263,7 @@ form {
   font-size: 30px;
   font-family: 'Montserrat', sans-serif;
   position: relative;
-  margin: 48px 0 40px;
+  margin: 68px 0 37px;
 }
 .tooth-row b {
   color: red;
@@ -1236,28 +1276,35 @@ form {
 .screen-three h3::before {
   position: absolute;
   bottom: -20px;
-  width: 30%;
+  width: 50%;
   content: '';
   display: block;
-  height: 4px;
+  height: 5px;
   background: #000;
 }
 
 .screen-three h2{
-    font-size: 30px;
-    line-height: 32px;
-    color: #000;
-    width: 100%;
-    display: block;
-    font-family: 'Montserrat', sans-serif;
-    margin-bottom: 40px;
-    font-weight: 900;
+  font-size: 36px;
+  line-height: 32px;
+  color: #000;
+  width: 100%;
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+  margin: 40px 0 75px;
+  font-weight: 900;
+}
+
+.button-wrapper{
+  position: relative;
 }
 
 .screen-three .tooth-row {
   display: flex;
   padding-top: 40px;
   padding-bottom: 40px;
+}
+.screen-three .tooth-row img {
+  width: 100%;
 }
 .green {
   text-align: center;
@@ -1275,12 +1322,12 @@ form {
   content: url(../images/right.svg);
   left: 26%;
   -webkit-animation: downarrow 0.6s infinite alternate ease-in-out;
-  top: 36%;
+  top: -16px;
 }
 .screen-three .button-wrapper::after {
   position: absolute;
   content: url(../images/left.svg);
-  top: 36%;
+  top: -16px;
   -webkit-animation: downarrow 0.6s infinite alternate ease-in-out;
   right: 26%;
 }
@@ -1290,6 +1337,9 @@ form {
 .screen-four{
   background: url(../images/bg-screen-four.jpg) center no-repeat;
   background-size: cover;
+}
+.screen-four .container{
+  max-width: 880px;
 }
 .screen-four h3 {
   color: #507694;
@@ -1327,7 +1377,7 @@ form {
     margin: 0 20px 20px 0;
 }
 .screen-four a {
-    margin: 52px 0;
+    margin: 52px 0 18px;
 }
 .photos img {
     margin: 0 0 24px 0;
@@ -1345,7 +1395,7 @@ form {
 .bonus-stripe {
   background: #ffea7e;
   position: relative;
-  padding: 40px 0;
+  padding: 30px 0;
 }
 
 .bonus-stripe::before {
@@ -1382,6 +1432,7 @@ form {
 .screen-grass{
   background: white url(../images/bg-screen-grass.jpg) center no-repeat;
   background-size: cover;
+  padding: 24px 0;
 }
 .screen-grass h2 {
   color: #507694;
@@ -1389,7 +1440,7 @@ form {
   font-size: 30px;
   font-family: 'Montserrat', sans-serif;
   position: relative;
-  margin: 58px 0 40px;
+  margin: 20px 0 50px;
   text-align: center;
 }
 .green {
@@ -1404,22 +1455,22 @@ form {
   justify-content: space-between;
 }
 .grass{
-  border: 1px solid black;
-  margin: 40px auto 20px;
+  border: 2px solid #357796;
+  margin: 40px auto 58px;
   position: relative;
-  padding: 48px 8px 8px;
+  padding: 77px 8px 4px;
   width: 350px;
   background: #fff;
   box-shadow: 0 7px 20px 0 rgba(0,0,0,0.2);
 }
 .g_img{
-  border: 1px solid black;
+  border: 2px solid #357796;
   border-radius: 50%;
   position: absolute;
-  top: -40px;
-  width: 80px;
+  top: -65px;
+  width: 130px;
   left: 50%;
-  margin-left: -40px;
+  margin-left: -65px;
   overflow: hidden;
 }
 .g_img img{
@@ -1434,13 +1485,15 @@ form {
 .g_text h3 {
   font-size: 20px;
   font-weight: 900;
+  margin: 0 0 3px;
 }
 .g_text p {
   font-size: 18px;
+  line-height: 21px;
 }
 .screen-grass .button-wrapper {
   text-align: center;
-  margin: 40px;
+  margin: 7px 0 17px;
 }
 
 /*------------------ screen grass END ---------------------*/
