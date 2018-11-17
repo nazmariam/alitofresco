@@ -928,6 +928,14 @@ form .head_form {
         overflow: hidden;
         border-radius: 10px 0 10px 0;
         background: #000;
+        height: 80px;
+        width: 80px;
+      }
+      .comments .comment-item .head-comment .image-wrapper img {
+        bottom: 25px;
+        width: 166%;
+        position: relative;
+        right: 28px;
       }
       .comments .comment-item .head-comment .user-data {
         padding-top: 6px; }
@@ -1071,6 +1079,9 @@ form .head_form {
     max-width: 95%; }
   .grass img {
     max-width: 100%;
+  }
+  .comments .image-wrapper img {
+    max-width: unset;
   }
   .about-goods .image-wrapper {
     position: relative;
@@ -1889,7 +1900,7 @@ form .head_form {
   }
   .comments .comment-item .head-comment .image-wrapper {
     margin-right: 25px;
-    margin-left: 14px;
+    margin-left: 1px;
   }
   .mg-none{
     display:block;
