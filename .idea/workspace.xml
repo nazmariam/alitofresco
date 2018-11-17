@@ -3,8 +3,55 @@
   <component name="ChangeListManager">
     <list default="true" id="f7c2e58d-7a66-4abb-92d2-659875322f9c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Layer 587.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Layer 597.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Layer 606.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Layer 632.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Layer 633.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Layer 635.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Layer 661.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Layer 663.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Layer 665.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Layer1742-small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Layer1742.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Layer1743.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/arrow-down2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/arrow-right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bg-banner2-small.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bg-banner2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bg-banner3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bg-banner4-small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bg-banner4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bg-banner5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bg-steps.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bg-two.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/clicca.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cutter-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cutter-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cutter-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cutter1-small.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cutter2-small.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cutter3-small.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/giacomo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/marina.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sara.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/step-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/step-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/step-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/steps-2-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/supercutter1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/supercutter2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/table-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/table-mobile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/table.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/veronica.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/video-border.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/video-to-buy-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/video-to-buy-img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/youtube-small.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/youtube.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video/video.mp4" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,19 +61,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="592">
-              <caret line="1243" column="97" selection-start-line="1243" selection-start-column="97" selection-end-line="1243" selection-end-column="97" />
+            <state relative-caret-position="-10842">
+              <caret line="276" column="49" selection-start-line="276" selection-start-column="49" selection-end-line="276" selection-end-column="49" />
               <folding>
-                <element signature="n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#select#0;n#div#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#1;n#div#1;n#div#1;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#select#0;n#div#0;n#div#6;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#1;n#div#1;n#div#1;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#6;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#section#9;n#main#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#section#11;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#11;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#select#0;n#div#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#section#11;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#select#0;n#div#0;n#div#6;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#section#11;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -40,11 +85,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="1571" column="19" selection-start-line="1571" selection-start-column="19" selection-end-line="1571" selection-end-column="19" />
+            <state relative-caret-position="825">
+              <caret line="1917" column="3" selection-start-line="1917" selection-start-column="3" selection-end-line="1917" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -64,6 +109,7 @@
       <find>74</find>
       <find>2079</find>
       <find>767</find>
+      <find>super</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -73,16 +119,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="453" />
-    <option name="y" value="190" />
-    <option name="width" value="1260" />
-    <option name="height" value="879" />
+    <option name="x" value="545" />
+    <option name="y" value="150" />
+    <option name="width" value="1356" />
+    <option name="height" value="886" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -144,7 +190,8 @@
       <workItem from="1542373256311" duration="10398000" />
       <workItem from="1542386018654" duration="9207000" />
       <workItem from="1542401335456" duration="7850000" />
-      <workItem from="1542440957128" duration="9304000" />
+      <workItem from="1542440957128" duration="9576000" />
+      <workItem from="1542474469066" duration="966000" />
     </task>
     <task id="LOCAL-00001" summary="second screen good image and bg">
       <created>1542274845641</created>
@@ -164,7 +211,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66135000" />
+    <option name="totallyTimeSpent" value="67373000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1853" height="1173" extended-state="6" />
@@ -240,6 +287,20 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="second screen good image and bg" />
@@ -263,18 +324,23 @@
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/sectional.rnc" />
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="1917" column="3" selection-start-line="1917" selection-start-column="3" selection-end-line="1917" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="1243" column="97" selection-start-line="1243" selection-start-column="97" selection-end-line="1243" selection-end-column="97" />
+        <state relative-caret-position="-10842">
+          <caret line="276" column="49" selection-start-line="276" selection-start-column="49" selection-end-line="276" selection-end-column="49" />
           <folding>
-            <element signature="n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#div#0;n#div#1;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#select#0;n#div#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#1;n#div#1;n#div#1;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#select#0;n#div#0;n#div#6;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#1;n#div#1;n#div#1;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#6;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#section#9;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#section#11;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#11;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#select#0;n#div#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#section#11;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#select#0;n#div#0;n#div#6;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#section#11;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -284,13 +350,6 @@
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#script#1;n#body#0;n#html#0;n#!!top" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="1571" column="19" selection-start-line="1571" selection-start-column="19" selection-end-line="1571" selection-end-column="19" />
         </state>
       </provider>
     </entry>
