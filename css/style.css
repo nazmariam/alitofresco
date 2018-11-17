@@ -900,15 +900,14 @@ form {
 
 .comments {
   padding: 40px 0;
-   background: url(../images/bg-banner3.jpg) no-repeat center center;
-   background-size: cover;
+   background-color: #ecfcff;
  }
   .comments .comment-item {
     background: transparent;
     margin-bottom: 0px;
     margin-top: 30px;
     min-height: 180px;
-    border: 1px solid #000;
+    border: 1px solid #caf0ff;
     border-radius: 10px;
     background-color: #fff;
   }
@@ -1464,7 +1463,6 @@ form {
   box-shadow: 0 7px 20px 0 rgba(0,0,0,0.2);
 }
 .g_img{
-  border: 2px solid #357796;
   border-radius: 50%;
   position: absolute;
   top: -65px;
@@ -1515,10 +1513,10 @@ form {
 }
 .arrow-box::after {
   position: absolute;
-  content: url(../images/arrow.svg);
-  margin-left: -80px;
+  content: url(../images/yellow-down.svg);
+  margin-left: -22px;
   bottom: 10px;
-  left: 10px;
+  left: 50%;
   -webkit-animation: downarrow 0.6s infinite alternate ease-in-out;
 }
 .arrow-box h3 {
@@ -1673,16 +1671,17 @@ form {
     background: #fff; }
 
 .carousel-indicators li{
-  background: #ccc!important;
-  width: 15px;
-  height: 15px;
-  border-radius: 100px;
+  background: url(../images/indicator-2.png) center no-repeat;
+  background-size: cover;
+  height: 26px;
 }
 .carousel-indicators li.active{
-  background-color: #2d2d2d !important;
+  background: url(../images/indicator-1.png) center no-repeat;
+  background-size: cover;
+  height: 26px;
 }
 .carousel-indicators{
-  bottom: -10px;
+  bottom: -28px;
 }
 .carousel-item{
   padding: 20px;
