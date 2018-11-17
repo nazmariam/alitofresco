@@ -1566,9 +1566,10 @@ form .head_form {
 .ott_main{
   box-shadow: 0 7px 20px 0 rgba(0,0,0,0.2);
   margin: 0 0 16px;
-  padding: 4px;
+  padding: 4px 4px 16px 4px;
   color: #878787;
   text-align: center;
+  min-height: 480px;
 }
 .ott_main .x1 img,
 .ott_main .x2 img,
@@ -1602,6 +1603,10 @@ form .head_form {
 .ott_button{
   display: block;
   margin: 4px 4px;
+  padding: 10px 8px;
+}
+.ott_col .ott_button b {
+  font-size: 22px;
 }
 .sec_badges {
   margin: 15px 0;
@@ -1770,10 +1775,6 @@ form .head_form {
     bottom: 18%
   }
 
-  .ott_box {
-    display: flex;
-    flex-direction: column;
-  }
 }
 @media (max-width: 768px)and(min-width: 320px) {
 
@@ -1908,7 +1909,13 @@ form .head_form {
     .one-two-three .container {
       flex-direction: column;
   }
-
+  .ott_main {
+    min-height: 430px;
+  }
+  .ott_box {
+    display: flex;
+    flex-direction: column;
+  }
   .goods-bottom .center-block-img {
     margin: 32px auto 30px;
     display: block;
