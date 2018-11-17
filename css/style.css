@@ -1531,42 +1531,68 @@ form {
 .one-two-three{
 }
 .one-two-three .container{
-  display: flex;
   padding: 24px 0;
+}
+.one-two-three .container h2{
+  font-size: 30px;
+  font-weight: bold;
+  color: #507694;
+  padding: 7px 130px 29px;
+  text-align: center;
+}
+.ott_box{
+  display: flex;
 }
 .ott_col{
   display: flex;
   flex-direction: column;
+  padding: 0 20px 0;
 }
 .ott_main{
-  box-shadow: black;
+  box-shadow: 0 7px 20px 0 rgba(0,0,0,0.2);
   margin: 0 0 16px;
   padding: 4px;
+  color: #878787;
+  text-align: center;
 }
-.ott_main .x1,
-.ott_main .x2,
-.ott_main .x3{
+.ott_main .x1 img,
+.ott_main .x2 img,
+.ott_main .x3 img{
   width: 100%;
-  height: 150px;
-  background: url("../images/x1.png") center no-repeat;
-  background-size: cover;
 }
-.ott_main .x2{
-  background: url("../images/x2.png") center no-repeat;
-  background-size: cover;
+
+.ott_price{
+  font-family: Motnserat, sans-serif;
+  font-size: 76px;
+  color: #ff1818;
+  position: relative;
+  font-weight: bold;
+  line-height: 1;
+  margin: 8px 0 0;
 }
-.ott_main .x3{
-  background: url("../images/x3.png") center no-repeat;
-  background-size: cover;
+.ott_price .euro{
+  position: relative;
+  font-size: 45px;
+  top: -20px;
+}
+.ott_price .old{
+  text-decoration: line-through;
+  font-size: 30px;
+  color: #000;
+}
+.save{
+  font-size: 20px;
+  color: #000;
 }
 .ott_button{
   display: block;
+  margin: 4px 4px;
 }
-.sec_badges{
-  display: block;
-  background: url("../images/sec_badge.png") center no-repeat;
-  background-size: cover;
-  margin: 16px 0 0;
+.sec_badges {
+  margin: 15px 0;
+}
+.sec_badges img{
+  width: 100%;
 }
 
 /*------------one-two-three END---------------------*/
@@ -1716,6 +1742,11 @@ form {
   .click {
     right: 5%;
     bottom: 18%
+  }
+
+  .ott_box {
+    display: flex;
+    flex-direction: column;
   }
 }
 @media (max-width: 768px)and(min-width: 320px) {
