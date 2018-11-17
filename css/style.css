@@ -700,10 +700,12 @@ form .head_form {
 }
 .red_text{
  color: #fe3b40;
+  font-family: "Montserrat", sans-serif;
 }
 .green_text{
   color: #42d03e;
-  font-weight: bold;
+  font-weight: 900;
+  font-family: "Montserrat", sans-serif;
 }
 .underline{
   text-decoration: underline;
@@ -1297,7 +1299,7 @@ form .head_form {
 
 .screen-three h2{
   font-size: 36px;
-  line-height: 32px;
+  line-height: 40px;
   color: #000;
   width: 100%;
   display: block;
@@ -1830,6 +1832,7 @@ form .head_form {
   }
   .addio-container {
     justify-content: center;
+    margin: 0;
   }
    .checks {
     margin: 20px 20px;
@@ -1846,14 +1849,14 @@ form .head_form {
     position: absolute;
     content: url(../images/blue-down.svg);
     left: 28%;
-    top: 70px;
+    top: 94px;
     transform: scale(-1, 1);
     -webkit-animation: none;
   }
   .screen-two h3::after {
     position: absolute;
     content: url(../images/blue-down.svg);
-    top: 70px;
+    top: 94px;
     right: 28%;
     -webkit-animation: none;
   }
@@ -1950,7 +1953,7 @@ form .head_form {
     display: none;
   }
   .circle-check{
-    margin-bottom: 20px;
+    margin: 20px;
   }
   .mg-none{
     margin-top: 0;
@@ -2100,6 +2103,10 @@ form .head_form {
     .about-goods .top-good-container .good-img {
       right: auto;
     }
+
+    .one-two-three .container h2{
+      padding: 8px;
+    }
   .click img {
     width: 50%;
   }
@@ -2138,7 +2145,7 @@ form .head_form {
   }
   .image-wrapper-top {
     width: 40%;
-    margin: 0px 8px 0 162px;
+    margin: 0px 8px 0 92px;
   }
   .image-wrapper-top .price {
     right: 23%;
@@ -2210,5 +2217,9 @@ form .head_form {
   .click {
     right: 15%;
     bottom: 9%;
+  }
+  .ott_box {
+    display: flex;
+    flex-direction: column;
   }
 }
