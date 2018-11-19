@@ -30,7 +30,7 @@
     <style>
         body.loading .spinner-container,
         body.focus-form .spinner-container{
-            opacity: !important;
+            /*opacity: !important;*/
             display: none!important;
         }
 
@@ -68,8 +68,8 @@
 
     <!-- Start Visual Website Optimizer Asynchronous Code -->
     <script type='text/javascript'>
-        var _vwo_code=(function(){
-            var account_id=349681,
+        let _vwo_code=(function(){
+            let account_id=349681,
                 settings_tolerance=2000,
                 library_tolerance=2500,
                 use_existing_jquery=false,
@@ -551,7 +551,7 @@
                                         <input type="hidden" class="" id="total_order_f2c5754" name="total_order" value="59.00">
                                         <input type="hidden" class="" id="order_extras_f2c5754" name="order_extras" value="">
 
-                                        <input type="hidden" class="" id="ab_test_f2c5754" name="ab_test" value="">
+                                        <!--<input type="hidden" class="" id="ab_test_f2c5754" name="ab_test" value="">-->
                                         <style>
 
                                             .orderaddons {
@@ -633,7 +633,7 @@
                                                 <div class="col-md-4 col-md-push-8 col-sm-12 col-xs-12">
 
                                                     <input type="submit" class="gradintbtn btn-block gradintbtnsmall standard-button" value="Ordina adesso">
-                                                </div>tab-pane active
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -1107,7 +1107,7 @@
                             <div class="comment-item">
                                 <div class="head-comment">
                                     <div class="image-wrapper">
-                                        <img src="images/14.png" alt="user">
+                                        <img src="images/4.png" alt="user">
                                     </div>
                                     <div class="user-data">
                                         <h2>Annalisa Pavone </h2>
@@ -1310,15 +1310,15 @@
                 </div>
                 <div class="col-md-5">
                     <div id="AnchorOrderForm"></div>
-                    <!-- Contact form -->
+                    <!-- Contact form second!-->
                     <div class="formdiv">
                         <div style="display:none;" class="card-header">
                             <ul class="nav nav-tabs card-header-tabs nav-justified">
                                 <li class="nav-item">
-                                    <a class="nav-link active" data-toggle="tab" href="#step1_f2c5754">Passo 1</a>
+                                    <a class="nav-link active" data-toggle="tab" href="#step1_f2c5754_2">Passo 1</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" data-toggle="tab" href="#step2_f2c5754">Passo 2</a>
+                                    <a class="nav-link" data-toggle="tab" href="#step2_f2c5754_2">Passo 2</a>
                                 </li>
                             </ul>
                         </div>
@@ -1413,30 +1413,29 @@
                                         <div class="row head_bg">
                                             <div class="container">
                                                 <div class="row next_step form_body">
-                                                    <div class="col-md-9 col-sm-12 col-xs-12">
+                                                    <div class="col-md-12 col-sm-12 col-xs-12">
                                                         <div class="row">
-                                                            <div class="col-md-4 col-sm-12 col-xs-12">
+                                                            <div class="col-md-12 col-sm-12 col-xs-12">
                                                                 <div class="form-group"> <img src="images/location.png" alt="">
                                                                     <input type="text" class="form-control" id="address_f2c5754_2" name="address_2" placeholder="Indirizzo">
                                                                     <div class="form-control-feedback">Questo campo è obbligatorio</div>
                                                                 </div>
                                                             </div>
-
-                                                            <div class="col-md-4 col-sm-12 col-xs-12">
+                                                            <div class="col-md-12 col-sm-12 col-xs-12">
                                                                 <div class="form-group"> <img src="images/heaxa.png" alt="">
                                                                     <input type="text" class="form-control" id="house_number_f2c5754_2" name="house_number_2" placeholder="Numero civico">
                                                                     <div class="form-control-feedback">Questo campo è obbligatorio</div>
                                                                 </div>
                                                             </div>
-                                                            <div class="col-md-4 col-sm-12 col-xs-12">
+                                                            <div class="col-md-12 col-sm-12 col-xs-12">
                                                                 <div class="form-group"> <img src="images/citta.png" alt="">
-                                                                    <input type="text" class="form-control" id="city_f2c5754" name="city" placeholder="Città">
+                                                                    <input type="text" class="form-control" id="city_f2c5754_2" name="city_2" placeholder="Città">
                                                                     <div class="form-control-feedback">Questo campo è obbligatorio</div>
                                                                 </div>
                                                             </div>
-                                                            <div class="col-md-4 col-sm-12 col-xs-12">
+                                                            <div class="col-md-12 col-sm-12 col-xs-12">
                                                                 <div class="form-group"> <img src="images/map.png" alt="">
-                                                                    <select class="form-control form-control-new" id="province_f2c5754" name="province" style="display: none;">
+                                                                    <select class="form-control form-control-new" id="province_f2c5754_2" name="province_2" style="display: none;">
                                                                         <option value="" selected="">Provincia</option>
                                                                         <option value="AG">Agrigento</option>
                                                                         <option value="AL">Alessandria</option>
@@ -1550,16 +1549,16 @@
                                                                     <div class="form-control-feedback">Questo campo è obbligatorio</div>
                                                                 </div>
                                                             </div>
-                                                            <div class="col-md-4 col-sm-12 col-xs-12">
+                                                            <div class="col-md-12 col-sm-12 col-xs-12">
                                                                 <div class="form-group"> <img src="images/cap.png" alt="">
-                                                                    <input type="text" class="form-control" id="postal_code_f2c5754" name="postal_code" placeholder="CAP">
+                                                                    <input type="text" class="form-control" id="postal_code_f2c5754_2" name="postal_code_2" placeholder="CAP">
                                                                     <div class="form-control-feedback">Questo campo è obbligatorio</div>
                                                                 </div>
                                                             </div>
-                                                            <div class="col-md-4 col-sm-12 col-xs-12 d-none">
+                                                            <div class="col-md-12 col-sm-12 col-xs-12 d-none">
                                                                 <div class="form-group">
                                                                     <!-- <img src="images/cap.png" alt="" /> -->
-                                                                    <select class="form-control form-control-new" id="amount_f2c5754" name="amount" style="display: none;">
+                                                                    <select class="form-control form-control-new" id="amount_f2c5754_2" name="amount_2" style="display: none;">
                                                                         <option data-price="80.00" data-show="" data-freeshipping="0" value="1">
                                                                             1x Alito Fresco a 49€                                                       </option>
                                                                     </select><div class="nice-select form-control form-control-new" tabindex="0"><span class="current">
@@ -1567,43 +1566,35 @@
                                                                     1x Alito Fresco a 49€                                                        </li></ul></div>
                                                                 </div>
                                                             </div>
-                                                            <div class="col-md-4 col-sm-12 col-xs-12">
+                                                            <div class="col-md-12 col-sm-12 col-xs-12">
                                                                 <div class="form-group">
                                                                     <img src="images/fiucs-select.png" alt="">
-                                                                    <input type="hidden" class="" id="ab_test_f2c5754" name="ab_test" value="with-shipping-cost">
-                                                                    <select class="form-control form-control-new  addon_order_select_f2c5754" id="shipping_f2c5754" name="shipping" style="display: none;">
+                                                                    <input type="hidden" class="" id="ab_test_f2c5754_2" name="ab_test_2" value="with-shipping-cost">
+                                                                    <select class="form-control form-control-new  addon_order_select_f2c5754" id="shipping_f2c5754_2" name="shipping_2" style="display: none;">
                                                                         <option data-price="4.5" value="spedizione-standard">Spedizione Standard +4,50 €</option>
                                                                         <option data-price="6.0" value="spedizione-garantita">Spedizione Assicurata +6,00 €</option>
-                                                                    </select><div class="nice-select form-control form-control-new addon_order_select_f2c5754" tabindex="0"><span class="current">Spedizione Standard +4,50 €</span><ul class="list"><li data-value="spedizione-standard" class="option selected">Spedizione Standard +4,50 €</li><li data-value="spedizione-garantita" class="option">Spedizione Assicurata +6,00 €</li></ul></div>
+                                                                    </select>
+                                                                    <div class="nice-select form-control form-control-new addon_order_select_f2c5754" tabindex="0"><span class="current">Spedizione Standard +4,50 €</span><ul class="list"><li data-value="spedizione-standard" class="option selected">Spedizione Standard +4,50 €</li><li data-value="spedizione-garantita" class="option">Spedizione Assicurata +6,00 €</li></ul></div>
 
                                                                 </div>
                                                             </div>
-                                                            <div class="col-md-4 col-sm-12 col-xs-12">
-                                                                <!-- <img src="images/cap.png" alt="" /> -->
-                                                            </div>
-                                                            <div class="col-md-4 col-sm-12 col-xs-12">
-                                                                <!-- <img src="images/cap.png" alt="" /> -->
-                                                            </div>
-                                                            <div class="col-md-4 col-sm-12 col-xs-12">
-                                                                <!-- <img src="images/cap.png" alt="" /> -->
-                                                            </div>
                                                         </div>
                                                     </div>
-                                                    <div class="col-md-3 col-sm-12 col-xs-12">
+                                                    <div class="col-md-12 col-sm-12 col-xs-12">
                                                         <div class="form-group"> <img src="images/pen.png" alt="">
-                                                            <textarea class="form-control" rows="3" id="notes_f2c5754" name="notes" placeholder="Nome sul Citofono e Altre Note per il Corriere (facoltativo)"></textarea>
+                                                            <textarea class="form-control" rows="3" id="notes_f2c5754_2" name="notes_2" placeholder="Nome sul Citofono e Altre Note per il Corriere (facoltativo)"></textarea>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="attenzione"> Seleziona le opzioni aggiuntive </div>
                                                 <div class="row">
 
-                                                    <input type="text" id="lead_id_f2c5754" name="lead_id" value="" class="hidden hidden-xs-up">
+                                                    <input type="text" id="lead_id_f2c5754_2" name="lead_id_2" value="" class="hidden hidden-xs-up">
 
-                                                    <input type="hidden" class="" id="total_order_f2c5754" name="total_order" value="59.00">
-                                                    <input type="hidden" class="" id="order_extras_f2c5754" name="order_extras" value="">
+                                                    <input type="hidden" class="" id="total_order_f2c5754_2" name="total_order_2" value="59.00">
+                                                    <input type="hidden" class="" id="order_extras_f2c5754_2" name="order_extras_2" value="">
 
-                                                    <input type="hidden" class="" id="ab_test_f2c5754" name="ab_test" value="">
+                                                    <!--<input type="hidden" class="" id="ab_test_f2c5754_2" name="ab_test_2" value="">-->
                                                     <style>
 
                                                         .orderaddons {
@@ -1629,7 +1620,7 @@
                                                     </style>
 
 
-                                                    <div class="col-md-4 col-sm-12 col-xs-12">
+                                                    <div class="col-md-12 col-sm-12 col-xs-12">
                                                         <div class="form-group">
                                                             <div class="checkboxdiv">
                                                                 <div class="checkbox">
@@ -1643,7 +1634,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="col-md-4 col-sm-12 col-xs-12">
+                                                    <div class="col-md-12 col-sm-12 col-xs-12">
                                                         <div class="form-group">
 
                                                             <div class="checkboxdiv">
@@ -1671,7 +1662,7 @@
                                                     <div class="col">
                                                         <div class="row sec2formbg">
 
-                                                            <div class="col-md-8 col-md-pull-4 col-sm-12 col-xs-12">
+                                                            <div class="col-md-12 col-md-pull-12 col-sm-12 col-xs-12">
                                                                 <ul class="secureicon">
                                                                     <li><img src="images/secure-icon1.png" alt=""></li>
                                                                     <li><img src="images/secure-icon2.png" alt=""></li>
@@ -1682,7 +1673,7 @@
                                                                     <li><img src="images/secure-icon7.png" alt=""></li>
                                                                 </ul>
                                                             </div>
-                                                            <div class="col-md-4 col-md-push-8 col-sm-12 col-xs-12">
+                                                            <div class="col-md-12 col-md-push-12 col-sm-12 col-xs-12">
 
                                                                 <input type="submit" class="gradintbtn btn-block gradintbtnsmall standard-button" value="Ordina adesso">
                                                             </div>
@@ -1739,7 +1730,7 @@
                             Ti piacerebbe acquistare nuovamente questo prodotto?
                             <br>
                             <div class="text-right">
-                                <button type="submit" id="closeDialog_f2c5754" class="btn btn-secondary">No, Grazie</button> <button type="submit" id="acceptDialog_f2c5754" class="btn btn-primary">Si, lo Voglio!</button>
+                                <button type="submit" id="closeDialog_f2c5754_2" class="btn btn-secondary">No, Grazie</button> <button type="submit" id="acceptDialog_f2c5754_2" class="btn btn-primary">Si, lo Voglio!</button>
                             </div>
                         </div>
                     </div>
@@ -1748,19 +1739,19 @@
                     <script>
 
                         /**ORDERS ADDONS **/
-                        $('#amount_f2c5754').change(function() {
-                            calcolateTotalOrder_f2c5754('f2c5754')
+                        $('#amount_f2c5754_2').change(function() {
+                            calcolateTotalOrder_f2c5754_2('f2c5754_2')
                         });
 
                         $('.addon_order_f2c5754').change( function(){
-                            calcolateTotalOrder_f2c5754('f2c5754')
+                            calcolateTotalOrder_f2c5754_2('f2c5754_2')
                         });
 
-                        $('.addon_order_select_f2c5754').change( function(){
-                            calcolateTotalOrder_f2c5754('f2c5754')
+                        $('.addon_order_select_f2c5754_2').change( function(){
+                            calcolateTotalOrder_f2c5754_2('f2c5754_2')
                         });
 
-                        function calcolateTotalOrder_f2c5754(idform) {
+                        function calcolateTotalOrder_f2c5754_2(idform) {
                             var amount = $('#amount_' + idform).val();
                             var total = parseFloat($('#amount_' + idform + ' option[value="'+ amount +'"]').data('price'));
                             var extras = '';
@@ -1781,19 +1772,19 @@
                             $('#order_extras_' + idform).val(extras);
                             $('#total_order_' + idform).val(total);
                         }
-                        calcolateTotalOrder_f2c5754('f2c5754');
+                        calcolateTotalOrder_f2c5754_2('f2c5754_2');
 
                         /**** FORM QUANTITY & EXTRAS ****/
-                        $('#amount_f2c5754').change(function() {
-                            showAdditionaFields_f2c5754('f2c5754');
-                            selectFreeShipping_f2c5754('f2c5754');
+                        $('#amount_f2c5754_2').change(function() {
+                            showAdditionaFields_f2c5754_2('f2c5754_2');
+                            selectFreeShipping_f2c5754_2('f2c5754_2');
                         });
 
-                        function showAdditionaFields_f2c5754(idform) {
+                        function showAdditionaFields_f2c5754_2(idform) {
                             if($('.form-group.addinfo').length == 0 ) {return true;}
                             var amount = $('#amount_' + idform).val();
                             $('.form-group.addinfo').hide();
-                            var toShow = $('#amount_' + idform + ' option[value="'+ amount +'"]').data('show')
+                            var toShow = $('#amount_' + idform + ' option[value="'+ amount +'"]').data('show');
                             var arr = toShow.split(",");
                             arr.forEach(function(el) {
                                 if(el == '') {
@@ -1802,9 +1793,9 @@
                                 $('.form-group.addinfo.'+el).show();
                             });
                         }
-                        showAdditionaFields_f2c5754('f2c5754');
+                        showAdditionaFields_f2c5754_2('f2c5754_2');
 
-                        function selectFreeShipping_f2c5754(idform) {
+                        function selectFreeShipping_f2c5754_2(idform) {
                             var amount = $('#amount_' + idform).val();
                             var freeshipping = $('#amount_' + idform + ' option[value="'+ amount +'"]').data('freeshipping')
                             if(freeshipping == true) {
@@ -1865,28 +1856,28 @@
                         }
 
                         //STEP1
-                        $("#step1Form_f2c5754").on("submit", function(e){
+                        $("#step1Form_f2c5754_2").on("submit", function(e){
                             //Prevent the actual form submit
                             e.preventDefault();
-                            $('input[name="first_name"]').val($("#first_name_f2c5754").val());
-                            $('input[name="last_name"]').val($("#last_name_f2c5754").val());
-                            $('input[name="email"]').val($("#email_f2c5754").val());
-                            $('input[name="phone"]').val($("#phone_f2c5754").val());
-                            $('input[name="privacy"]').val($("#privacy_f2c5754").val());
+                            $('input[name="first_name_2"]').val($("#first_name_f2c5754_2").val());
+                            $('input[name="last_name_2"]').val($("#last_name_f2c5754_2").val());
+                            $('input[name="email_2"]').val($("#email_f2c5754_2").val());
+                            $('input[name="phone_2"]').val($("#phone_f2c5754_2").val());
+                            $('input[name="privacy_2"]').val($("#privacy_f2c5754_2").val());
 
 
-                            $("#step1Form_f2c5754").data("valid", true);
-                            validate($("#first_name_f2c5754"));
-                            validate($("#last_name_f2c5754"));
-                            validate($("#email_f2c5754"));
-                            validate($("#phone_f2c5754"));
-                            validate($("#privacy_f2c5754"));
+                            $("#step1Form_f2c5754_2").data("valid", true);
+                            validate($("#first_name_f2c5754_2"));
+                            validate($("#last_name_f2c5754_2"));
+                            validate($("#email_f2c5754_2"));
+                            validate($("#phone_f2c5754_2"));
+                            validate($("#privacy_f2c5754_2"));
 
                             //No errors
-                            if($("#step1Form_f2c5754").data("valid")){
-                                if($("#email_f2c5754").val() == '') $("#email_f2c5754").val($("#phone_f2c5754").val().split(' ').join('').split('+').join('00').split('(').join('').split(')').join('').split('-').join('')+'@prontocampaign.com');
+                            if($("#step1Form_f2c5754_2").data("valid")){
+                                if($("#email_f2c5754_2").val() == '') $("#email_f2c5754_2").val($("#phone_f2c5754_2").val().split(' ').join('').split('+').join('00').split('(').join('').split(')').join('').split('-').join('')+'@prontocampaign.com');
 
-                                $.post("../ajax/step1.php", $("#step1Form_f2c5754").serialize(), function(data){
+                                $.post("../ajax/step1.php", $("#step1Form_f2c5754_2").serialize(), function(data){
                                     var result = jQuery.parseJSON(data);
                                     //test InitiateCheckout event on pixel facebook
                                     fbq('track', "AddToCart");
@@ -1896,35 +1887,35 @@
                                 });
 
                                 //Show the 2 step tab
-                                $('.nav-tabs a[href="#step2_f2c5754"]').tab('show');
+                                $('.nav-tabs a[href="#step2_f2c5754_2"]').tab('show');
                             }
                         });
 
                         //STEP2
-                        $("#step2Form_f2c5754").on("submit", function(e){
+                        $("#step2Form_f2c5754_2").on("submit", function(e){
                             //Prevent the actual form submit
                             e.preventDefault();
 
                             //Validate the 1st step
-                            $("#step1Form_f2c5754").data("valid", true);
-                            validate($("#first_name_f2c5754"));
-                            validate($("#last_name_f2c5754"));
-                            validate($("#email_f2c5754"));
-                            validate($("#phone_f2c5754"));
-                            validate($("#privacy_f2c5754"));
+                            $("#step1Form_f2c5754_2").data("valid", true);
+                            validate($("#first_name_f2c5754_2"));
+                            validate($("#last_name_f2c5754_2"));
+                            validate($("#email_f2c5754_2"));
+                            validate($("#phone_f2c5754_2"));
+                            validate($("#privacy_f2c5754_2"));
 
                             //If the first step has been completed
-                            if($("#step1Form_f2c5754").data("valid")){
-                                if($("body").data("ignoreDuplicate") == "true" || $("#duplicate_f2c5754").val() == ""){
-                                    $("#step2Form_f2c5754").data("valid", true);
-                                    validate($("#address_f2c5754"));
-                                    validate($("#house_number_f2c5754"));
-                                    validate($("#city_f2c5754"));
-                                    validate($("#province_f2c5754"));
-                                    validate($("#postal_code_f2c5754"));
+                            if($("#step1Form_f2c5754_2").data("valid")){
+                                if($("body").data("ignoreDuplicate") == "true" || $("#duplicate_f2c5754_2").val() == ""){
+                                    $("#step2Form_f2c5754_2").data("valid", true);
+                                    validate($("#address_f2c5754_2"));
+                                    validate($("#house_number_f2c5754_2"));
+                                    validate($("#city_f2c5754_2"));
+                                    validate($("#province_f2c5754_2"));
+                                    validate($("#postal_code_f2c5754_2"));
 
-                                    if($('#amount_f2c5754 option:selected').data('show') != '') {
-                                        var addInfoToShow = $('#amount_f2c5754 option:selected').data('show').split(",");
+                                    if($('#amount_f2c5754_2 option:selected').data('show') != '') {
+                                        var addInfoToShow = $('#amount_f2c5754_2 option:selected').data('show').split(",");
                                         addInfoToShow.forEach(function(el){
                                             validate($('.addinfo.' + el + ' select'));
                                         });
@@ -1933,47 +1924,47 @@
                                     //console.log($("#step1Form_f2c5754, #step2Form_f2c5754").serialize());
 
                                     //No errors
-                                    if($("#step2Form_f2c5754").data("valid")){
+                                    if($("#step2Form_f2c5754_2").data("valid")){
                                         //Show the spinner
                                         $("body").addClass("loading");
                                         //test purchase event on pixel facebook
                                         //Ajax call for the second step
-                                        $.post("../ajax/step2.php", $("#step1Form_f2c5754, #step2Form_f2c5754").serialize(), function(data){
+                                        $.post("../ajax/step2.php", $("#step1Form_f2c5754_2, #step2Form_f2c5754_2").serialize(), function(data){
                                             var result = jQuery.parseJSON(data);
                                             console.log(data, result.deal);
                                             top.location.href = "/thank-you.php?product="+result.product+"&amount="+result.amount+"&deal="+result.deal;
                                         });
                                     }
-                                }else if($("#duplicate_f2c5754").val() != ""){
+                                }else if($("#duplicate_f2c5754_2").val() != ""){
                                     $("body").addClass("dialog-f2c5754");
                                 }
                             }else{
                                 //Show the 1 step tab (and validate)
-                                $('.nav-tabs a[href="#step1_f2c5754"]').tab('show');
+                                $('.nav-tabs a[href="#step1_f2c5754_2"]').tab('show');
 
                                 //Validate the stap1 form
                                 $(this).data("valid", true);
-                                validate($("#first_name_f2c5754"));
-                                validate($("#last_name_f2c5754"));
-                                validate($("#email_f2c5754"));
-                                validate($("#phone_f2c5754"));
+                                validate($("#first_name_f2c5754_2"));
+                                validate($("#last_name_f2c5754_2"));
+                                validate($("#email_f2c5754_2"));
+                                validate($("#phone_f2c5754_2"));
                             }
 
                         });
                         //*** ./form submission ***/
 
                         //Asks the user for confirmation before doing another order
-                        $("#acceptDialog_f2c5754").click(function(){
+                        $("#acceptDialog_f2c5754_2").click(function(){
                             $("body").data("ignoreDuplicate", "true");
                             $("body").removeClass("dialog-f2c5754");
 
-                            $("#step2Form_f2c5754").submit();
+                            $("#step2Form_f2c5754_2").submit();
                         });
-                        $("#closeDialog_f2c5754").click(function(){
+                        $("#closeDialog_f2c5754_2").click(function(){
                             $("body").removeClass("dialog-f2c5754");
                         });
 
-                        $("#phone_f2c5754").mask("(+39)?777-777 77 77");
+                        $("#phone_f2c5754_2").mask("(+39)?777-777 77 77");
                     </script>
                 </div>
             </div>
@@ -2038,23 +2029,7 @@
         margin: 15px;
         font-weight:bold;
     }
-    .ebook-description {
-        margin-top:10px;
-        font-size:11.5px;
-    }
 </style>
-
-<!--<script>-->
-    <!--function ebookshowdescription() {-->
-        <!--$('.ebook-show-btn').hide();-->
-        <!--$('.ebook-description').show();-->
-    <!--}-->
-<!--</script>-->
-
-<!--<a href="#AnchorOrderForm" class="btn-green" title="Ordina ora" style="display: block;margin: 15px auto;text-align: center;height: 50px;width: 100%;max-width: 800px;color: #FFF;background: #4CAF50;line.:;font-size: 20px;line-height: 50px;">Ordina Ora</a>-->
-
-
-<!-- Acquista Ora -->
 
 <div class="icon-bar">
     <a href="#AnchorOrderForm" class="acquista-btn">Acquista Ora</a>
@@ -2100,7 +2075,7 @@
 
 <div id="brandloterms" style="text-align: left; font-size: 13px;">
 
-    Brandlo Italia srl. - PI: 02527400747 - <span>Numero REA: BR-152685. Via forcella 11, 72015 Fasano Brindisi, Italy - <a target="_blank" href="https://brandlocorp.com/privacy">Privacy e cookie policy</a> - <a  target="_blank" href="https://brandlocorp.com/condizioni">Condizioni d'uso</a> - <a  target="_blank" href="http://brandlocorp.com/condizioni#recesso">Diritto di recesso</a>.<br />
+    Brandlo Italia srl. - PI: 02527400747 - Numero REA: BR-152685. Via forcella 11, 72015 Fasano Brindisi, Italy - <a target="_blank" href="https://brandlocorp.com/privacy">Privacy e cookie policy</a> - <a  target="_blank" href="https://brandlocorp.com/condizioni">Condizioni d'uso</a> - <a  target="_blank" href="http://brandlocorp.com/condizioni#recesso">Diritto di recesso</a>.<br />
 
 
 </div>
