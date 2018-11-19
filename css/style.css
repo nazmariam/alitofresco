@@ -934,10 +934,8 @@ form .head_form {
         width: 80px;
       }
       .comments .comment-item .head-comment .image-wrapper img {
-        bottom: 25px;
-        width: 166%;
+        width: 100%;
         position: relative;
-        right: 28px;
       }
       .comments .comment-item .head-comment .user-data {
         padding-top: 6px; }
@@ -2138,7 +2136,7 @@ form .head_form {
       margin: 8px;
   }
     .screen-two .container {
-      padding-bottom: 495px;
+      padding-bottom: 475px;
     }
 
   }
