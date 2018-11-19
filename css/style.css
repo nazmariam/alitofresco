@@ -716,7 +716,7 @@ form .head_form {
     color: #000;
     width: 100%;
     display: block;
-    font-family: 'Montserrat', cursive;
+    font-family: 'Montserrat', sans-serif;
     margin-bottom: 33px;
     font-weight: 800;
     position: relative;
@@ -1280,7 +1280,7 @@ form .head_form {
   margin: 68px 0 37px;
 }
 .tooth-row b {
-  color: red;
+  color: #00b68f;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -2137,7 +2137,9 @@ form .head_form {
       width: 126px;
       margin: 8px;
   }
-
+    .screen-two .container {
+      padding-bottom: 495px;
+    }
 
   }
 
